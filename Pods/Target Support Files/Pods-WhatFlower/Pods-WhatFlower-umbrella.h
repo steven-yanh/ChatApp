@@ -1,16 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double Pods_WhatFlowerVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_WhatFlowerVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f2f7f0f9d586a95789d19981a079b30f7cab45fef351866eb11525cb35013eb
+size 322

@@ -1,19 +1,3 @@
-//
-//  WikiDescriptionData.swift
-//  WhatFlower
-//
-//  Created by Huang Yan on 8/27/22.
-//
-
-import Foundation
-class WikiDescriptionData: Codable{ //traditional way to parse
-    let query: Query
-}
-class Query: Codable{
-    let pageids: [Int]
-    let pages: [Items]
-}
-class Items: Codable{
-    let title: String
-    let extract: String
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ae451e7da15314454be242e00ca64cbc3b4def4bb19f7cd0a85b7dc64bb27ee
+size 336
